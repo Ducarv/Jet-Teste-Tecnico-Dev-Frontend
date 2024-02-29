@@ -1,5 +1,4 @@
 import React from "react";
-import { Check, Close } from "@mui/icons-material";
 
 interface StatusCellProps {
   status: string;
