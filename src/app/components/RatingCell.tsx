@@ -1,8 +1,5 @@
 import React from "react"
-
-interface RatingCellProps {
-    rating: number;
-};
+import { RatingCellProps } from "../types";
 
 export const RatingCell: React.FC<RatingCellProps> = ({ rating }) => {
     const stars = Array.from({ length: rating }, (_, index) => (
