@@ -1,5 +1,6 @@
 import { CarTable } from "./components/CarTable";
 import { data } from "./data/data"
+import { MobileCarTable } from './components/MobileCarTable';
 
 const Home = () => {
   return (
@@ -7,6 +8,7 @@ const Home = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex justify-center items-center h-screen">
         <div className="overflow-x-auto w-full">
           <CarTable data={data} />
+          <MobileCarTable data={data} />
         </div>
       </div>
     </div>
