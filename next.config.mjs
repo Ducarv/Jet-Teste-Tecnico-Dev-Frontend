@@ -1,12 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  trailingSlash: true,
-  exportPathMap: function () {
-    return {
-      "/": { page: "/" },
-      "/index": { page: "/" },
-    };
-  },
-};
+const nextConfig = {};
 
 export default nextConfig;
